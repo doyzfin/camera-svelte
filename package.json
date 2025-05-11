@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
+		"dev:https": "vite --mode https",
 		"build": "vite build",
 		"preview": "vite preview",
 		"test": "npm run test:integration && npm run test:unit",
@@ -45,6 +46,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/poppins": "^5.1.0",
-		"lucide-svelte": "^0.452.0"
+		"lucide-svelte": "^0.452.0",
+		"vite-plugin-mkcert": "^1.17.8"
 	}
 }
